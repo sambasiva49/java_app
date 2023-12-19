@@ -17,7 +17,7 @@ pipeline {
                       )
                   }
                }
-}
+
 
            stage('Unit Test maven'){
                           steps{
@@ -26,7 +26,7 @@ pipeline {
 
                           }
                        }
-          }
+          }}
       }
 
 }
